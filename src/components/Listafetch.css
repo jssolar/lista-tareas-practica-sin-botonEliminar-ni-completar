@@ -1,0 +1,35 @@
+.contenedor-lista {
+  display: flex;
+  max-width: 700px;
+  background-color: rgba(0, 0, 0, 0.402);
+  color: rgba(52, 50, 50, 0.683);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.boton {
+  background-color: rgba(0, 0, 0, 0.697);
+  color: rgba(0, 255, 255, 0.546);
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  margin: 0;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.boton:hover {
+  transition: 0.9s ease;
+  color: rgb(207, 207, 240);
+  background-color: rgba(49, 3, 253, 0.69);
+}
+input {
+  color: rgba(0, 255, 255, 0.546);
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.697);
+  margin: 0;
+  border-style: none;
+  border: none;
+}
