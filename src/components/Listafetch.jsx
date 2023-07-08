@@ -28,10 +28,14 @@ const Listafetch = () => {
           Guardar
         </button>
         {
-          <ul>
+          <ul className="list-group">
             {nuevaTarea.length > 0 ? (
               nuevaTarea.map((item, index) => {
-                return <li className="lista" onClick={handleClick}>{item}</li>;
+                return (
+                  <li className="lista list-group" onClick={handleClick}>
+                    {item}
+                  </li>
+                );
               })
             ) : (
               <p className="parrafo-lista">No hay tareas</p>
